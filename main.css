@@ -1,0 +1,107 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #1686E0;
+    
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1686E0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.carousel-item img{
+    max-height: 500px;
+}
+
+.aus-open{
+    color: #1686E0;
+}
+
+.roland-garros{
+    color:  #e15f41 ;
+}
+
+.wimbledon{
+    color: green;
+}
+
+#rg-btn,
+#rg-btn.nav-link.active{
+    background-color: #e15f41;
+}
+
+#wb-btn,
+#wb-btn.active{
+    background-color: green;
+}
+
+#uso-btn,
+#uso-btn.active{
+    background-color: blue;
+    color: yellow;
+}
+
+#ao-btn,
+#ao-btn.active{
+    background-color: #1686E0;
+    color: #fff;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:focus{
+    color: #fff;
+}
+
+
+.social-medias{
+    color: #fff;
+    background-color: #1686E0;
+}
+
+.social-medias i{
+    color: #fff;
+}
+
+.text-title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 992px){
+    .name-slam{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+    .grandslam img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .name-slam{
+        margin-top: 10px;
+    }
+
+    #uso-btn{
+        margin-bottom: 15px;
+    }
+
+}

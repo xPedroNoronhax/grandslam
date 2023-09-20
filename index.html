@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrandSlam</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+       <div class="container">
+                <h1 class="text-title navbar-brand m-0 fw-bold fs-3" href="#">O GrandSlam</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex mt-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#oque-e-grandslam">
+                            O que é o GrandSlam
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#torneios">
+                            Os 4 torneios
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#champions">
+                            Maiores campeões
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+       </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="oque-e-grandslam" class="pb-5">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="images/australianopen.jpg" alt="Australian open">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/rolandgarros.jpg" alt="Roland Garros">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/wimbledon.jpg" alt="Wimbledon">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/usopen.jpg" alt="Us open">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="grandslam col-md-6">
+                            <img  class="rounded w-100" src="images/grandslam.jfif" alt="">
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <h2 class="text-title">O GrandSlam</h2>
+                            <p>O termo "Grand Slam" no tênis refere-se aos quatro torneios de maior prestígio e importância no calendário do tênis mundial. Estes quatro torneios são:</p>
+                            <p>Aberto da Austrália (Australian Open): Geralmente realizado em janeiro, na cidade de Melbourne, Austrália, em quadras duras.</p>
+                            <p>Aberto da França (French Open), também conhecido como Roland Garros: Geralmente ocorre em maio e junho, em Paris, França, e é disputado em quadras de saibro.</p>
+                            <p>Wimbledon: Realizado em julho, em Londres, Reino Unido, é o único torneio de Grand Slam disputado em quadras de grama.</p>
+                            <p>Aberto dos Estados Unidos (US Open): Geralmente acontece em agosto e setembro, na cidade de Nova Iorque, Estados Unidos, e é disputado em quadras duras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="torneios" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="aus-open">
+                            <h3 class="text-center text-title name-slam">Australian Open</h3>
+                            <img class="w-100" src="images/rodlaverarena.jpg" alt="Rod Laver Arena">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="roland-garros">
+                            <h3 class="text-center text-title name-slam">Roland Garros</h3>
+                            <img class="w-100" src="images/chatrier.jpg" alt="Quadra Phillipe Chatrier">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <div class="wimbledon">
+                            <h3 class="text-center text-title name-slam">Wimbledon</h3>
+                            <img class="w-100" src="images/centerwimbledon.jpg" alt="Quadra Central de Wimbledon">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <div class="us-open">
+                            <h3 class="text-center text-title name-slam">US Open</h3>
+                            <img class="w-100" src="images/aseh.jpg" alt="Arthur Ashe Stadium">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="champions" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5 text-title">Os maiores campeões de cada torneio:</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-champs gap-3">
+                            <button id="ao-btn" type="button" data-bs-toggle="tab" data-bs-target="#australia-champs" class="aus-btn text-start nav-link active">Australian Open</button>
+                            <button id="rg-btn" type="button" data-bs-toggle="tab" data-bs-target="#rg-champs" class="text-start nav-link ">Roland Garros</button>
+                            <button id="wb-btn" type="button" data-bs-toggle="tab" data-bs-target="#wimbledon-champs" class="text-start nav-link ">Wimbledon</button>
+                            <button id="uso-btn" type="button" data-bs-toggle="tab" data-bs-target="#uso-champs" class="text-start nav-link ">US Open</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="australia-champs">
+                                <div class="row ps-5">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresAustralia/novakdjokovic.jpg" alt="">
+                                        <h5 class="text-center mt-4">Novak Djokovic</h5>
+                                    </div>
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresAustralia/margaretcourt.jpg" alt="">
+                                        <h5 class="text-center mt-4">Margaret Court</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="rg-champs">
+                                <div class="row ps-5">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresRolandGarros/Rafael-Nadal-roland-garros.jpg" alt="">
+                                        <h5 class="text-center mt-4">Rafael Nadal</h5>
+                                    </div>
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresRolandGarros/chrisEvert.jpg" alt="">
+                                        <h5 class="text-center mt-4">Chris Evert</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane " id="wimbledon-champs">
+                                <div class="row ps-5">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresWimbledon/federer.jpg" alt="">
+                                        <h5 class="text-center mt-4">Roger Federer</h5>
+                                    </div>
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresWimbledon/martina.jpg" alt="">
+                                        <h5 class="text-center mt-4">Martina Hingis</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane " id="uso-champs">
+                                <div class="row ps-5">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresUS/sampras.jpg" alt="">
+                                        <h5 class="text-center mt-4">Pete Sampras</h5>
+                                    </div>
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <img class="rounded" src="images/maioresUS/serena.jpg" alt="">
+                                        <h5 class="text-center mt-4">Serena Williams</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="social-medias">
+            <div class="container">
+                <h3 class="text-center pt-2 mb-2">Siga nossas redes sociais:</h3>
+                <div class="d-flex justify-content-center gap-3 pb-4 fs-4">
+                    <a href="#">
+                        <i class="bi bi-facebook "></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-instagram "></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-youtube "></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
